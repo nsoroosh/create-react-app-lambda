@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import Productpagelyout from '../Hoc/Productpagelyout'
+import Productpagelyout from './Hoc/Productpagelyout'
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -40,7 +40,6 @@ class App extends Component {
           <p>
             say hello to me .
           </p>
-          <LambdaDemo />
         </header>
       </div>
     )
